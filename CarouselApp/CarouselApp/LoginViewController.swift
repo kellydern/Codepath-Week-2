@@ -1,19 +1,21 @@
 //
-//  loadingViewController.swift
-//  Carousel
+//  LoginViewController.swift
+//  CarouselApp
 //
-//  Created by Kelly Dern on 2/6/16.
+//  Created by Kelly Dern on 2/7/16.
 //  Copyright © 2016 codepath. All rights reserved.
 //
 
 import UIKit
 
-class loadingViewController: UIViewController {
+class LoginViewController: UIViewController {
 
+    @IBOutlet weak var signInScrollView: UIScrollView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        signInScrollView.contentSize = CGSize(width:320, height:1330)
     }
 
     override func didReceiveMemoryWarning() {

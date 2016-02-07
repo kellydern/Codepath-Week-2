@@ -1,19 +1,21 @@
 //
-//  LoginViewController.swift
-//  Carousel
+//  introViewController.swift
+//  CarouselApp
 //
-//  Created by Kelly Dern on 2/6/16.
+//  Created by Kelly Dern on 2/7/16.
 //  Copyright © 2016 codepath. All rights reserved.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class introViewController: UIViewController {
+    @IBOutlet weak var introViewController: UIScrollView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        introViewController.contentSize = CGSize(width:320, height:1830)
     }
 
     override func didReceiveMemoryWarning() {

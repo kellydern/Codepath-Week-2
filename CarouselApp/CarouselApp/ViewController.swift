@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Carousel
+//  CarouselApp
 //
-//  Created by Kelly Dern on 2/6/16.
+//  Created by Kelly Dern on 2/7/16.
 //  Copyright © 2016 codepath. All rights reserved.
 //
 
