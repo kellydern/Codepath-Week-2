@@ -14,6 +14,8 @@
 		20D396DF1C67DF4F00AF7947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D396DD1C67DF4F00AF7947 /* LaunchScreen.storyboard */; };
 		20D396E71C67E0C400AF7947 /* introViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D396E61C67E0C400AF7947 /* introViewController.swift */; };
 		20D396E91C67E2C600AF7947 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D396E81C67E2C600AF7947 /* LoginViewController.swift */; };
+		20D396EB1C6B021600AF7947 /* TutorialViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D396EA1C6B021600AF7947 /* TutorialViewcontroller.swift */; };
+		20D396ED1C6D2C1600AF7947 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D396EC1C6D2C1600AF7947 /* TimeLineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		20D396E01C67DF4F00AF7947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20D396E61C67E0C400AF7947 /* introViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = introViewController.swift; sourceTree = "<group>"; };
 		20D396E81C67E2C600AF7947 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		20D396EA1C6B021600AF7947 /* TutorialViewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewcontroller.swift; sourceTree = "<group>"; };
+		20D396EC1C6D2C1600AF7947 /* TimeLineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				20D396D41C67DF4F00AF7947 /* AppDelegate.swift */,
 				20D396D61C67DF4F00AF7947 /* ViewController.swift */,
 				20D396D81C67DF4F00AF7947 /* Main.storyboard */,
+				20D396EC1C6D2C1600AF7947 /* TimeLineViewController.swift */,
+				20D396EA1C6B021600AF7947 /* TutorialViewcontroller.swift */,
 				20D396E81C67E2C600AF7947 /* LoginViewController.swift */,
 				20D396E61C67E0C400AF7947 /* introViewController.swift */,
 				20D396DB1C67DF4F00AF7947 /* Assets.xcassets */,
@@ -142,9 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				20D396E91C67E2C600AF7947 /* LoginViewController.swift in Sources */,
+				20D396EB1C6B021600AF7947 /* TutorialViewcontroller.swift in Sources */,
 				20D396D71C67DF4F00AF7947 /* ViewController.swift in Sources */,
 				20D396D51C67DF4F00AF7947 /* AppDelegate.swift in Sources */,
 				20D396E71C67E0C400AF7947 /* introViewController.swift in Sources */,
+				20D396ED1C6D2C1600AF7947 /* TimeLineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +300,7 @@
 				20D396E51C67DF4F00AF7947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
